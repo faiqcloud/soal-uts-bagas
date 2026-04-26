@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    
+    <nav class="navbar">
+    <h2 class="logo">MyPortfolio</h2>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+
+    <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="section home">
+    <div class="home-container">
+
+        <!-- KIRI (FOTO) -->
+        <div class="home-left">
+            <img src="asset/bagas.jpeg" class="profile-img">
+        </div>
+
+        <!-- KANAN (TEKS) -->
+        <div class="home-right">
+            <h1>BAGAS DARMAWAN</h1>
+            <p class="tagline">Mahasiswa Bisnis Digital & Digital Entrepreneur</p>
+
+            <p class="desc">
+                Mahasiswa yang aktif dalam pengembangan bisnis digital serta memiliki pengalaman 
+                menjalankan usaha e-commerce di bidang fashion dan freelance sebagai videografer.
+            </p>
+
+            <div class="info">
+                <table>
+                    <tr>
+                        <td><strong>Jurusan</strong></td>
+                        
+                        <td>Bisnis Digital</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Semester</strong></td>
+                        
+                        <td>3</td>
+                        </tr>
+                    <tr>
+                        <td><strong>IPK</strong></td>
+                        
+                        <td>3.75</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- TENTANG -->
+<section id="about" class="section">
+    <h1>Tentang Saya</h1>
+
+    <div class="about-container">
+        
+        <!-- KIRI -->
+        <div class="about-text">
+            <p>
+                Saya adalah mahasiswa program studi Bisnis Digital yang memiliki minat besar
+                dalam dunia digital entrepreneurship dan industri kreatif. Saat ini saya telah menjalankan bisnis
+                e-commerce di bidang penjualan pakaian yang dikelola secara online, serta aktif sebagai freelance videografer
+                untuk kebutuhan konten promosi dan branding.
+            </p>
+        </div>
+
+        <!-- KANAN -->
+        <div class="about-edu">
+            <h3>Riwayat Pendidikan</h3>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>2023 - Sekarang</h4>
+                    <p>S1 Bisnis Digital</p>
+                    <p>blablablaba</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h4>2020 - 2023</h4>
+                    <p>SMA</p>
+                    <p>blalalla</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- SKILL -->
+<section id="skills" class="section">
+    <h1>Skill</h1>
+
+    <div class="skill">
+        <p>Editing</p>
+        <div class="progress"><div class="progress-bar" data-width="90%"></div></div>
+    </div>
+
+    <div class="skill">
+        <p>Cewe</p>
+        <div class="progress"><div class="progress-bar" data-width="80%"></div></div>
+    </div>
+
+    <div class="skill">
+        <p>Bussines</p>
+        <div class="progress"><div class="progress-bar" data-width="75%"></div></div>
+    </div>
+    <div class="skill">
+        <p>Prompter AI</p>
+        <div class="progress"><div class="progress-bar" data-width="15%"></div></div>
+    </div>
+</section>
+
+<!-- PROJECT -->
+<section id="projects" class="section">
+    <h1>Project</h1>
+
+    <div class="project-container">
+
+        <!-- PROJECT 1 -->
+        <div class="card">
+            <img src="asset/velox.png">
+            <h3>Bisnis E-Commerce Pakaian</h3>
+            <p>
+                Mengelola bisnis penjualan pakaian secara online melalui marketplace dan media sosial, 
+                mulai dari pengelolaan produk, pemasaran digital, hingga pelayanan pelanggan.
+            </p>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="card">
+            <img src="asset/seraphic.png">
+            <h3>Freelance Videografer</h3>
+            <p>
+                Membuat konten video untuk kebutuhan promosi dan branding, termasuk shooting, editing, 
+                dan pengembangan konsep visual untuk berbagai klien.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- KONTAK -->
+<section id="contact" class="section">
+    <h1>Kontak</h1>
+    <p>Hubungi saya untuk kolaborasi atau pertanyaan lebih lanjut.</p>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Nama">
+        <input type="email" id="email" placeholder="Email">
+        <textarea id="message" placeholder="Pesan"></textarea>
+        <button type="submit">Kirim</button>
+    </form>
+
+    <div id="result"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+<footer>
+    copyright &copy; 2024 by Bagas Darmawan. All rights reserved.
+</footer>
+</html>
